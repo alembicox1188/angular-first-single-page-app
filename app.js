@@ -5,11 +5,11 @@ app .config([
   function($routeProvider){
     $routeProvider
     	.when('/',{
-    	  templateUrl: "/courses/web/spa/home.html",
+    	  templateUrl: "home.html",
         controller : "homeController"
       	})
       	.when('/page1',{
-      	 templateUrl: "/courses/web/spa/page1.html",
+      	 templateUrl: "page1.html",
       	 controller : "page1Controller"
       	})
       	.otherwise({
